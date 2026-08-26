@@ -23,8 +23,8 @@
     "README.md"
   ],
   "scripts": {
-    "build": "tsc",
-    "dev": "tsc --watch",
+    "build": "node init && tsc",
+    "dev": "node init && tsc --watch",
     "lint": "eslint src/",
     "test": "jest --passWithNoTests && node --experimental-strip-types --test test/*.test.ts"
   },
@@ -34,6 +34,7 @@
     "@x402/fetch": "^2.17.0",
     "@x402/stellar": "^2.17.0",
     "mppx": "^0.6.31",
+    "viem": "^2.55.19",
     "ws": "^8.21.3"
   },
   "devDependencies": {

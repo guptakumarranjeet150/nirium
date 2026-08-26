@@ -1,14 +1,14 @@
 {
   "name": "nirium-cli",
   "version": "1.0.2",
-  "description": "Nirium CLI — scaffold Stellar agent projects and check agent status",
+  "description": "Nirium CLI \u2014 scaffold Stellar agent projects and check agent status",
   "main": "bin/nirium.js",
   "type": "module",
   "bin": {
     "nirium": "bin/nirium.js"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "test": "tsc && node --test test/verify.test.js test/doctor.test.js test/pay-serve.test.js"
   },
   "keywords": [
