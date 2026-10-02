@@ -7,8 +7,6 @@ venv/
 __pycache__/
 *.pyc
 *.egg-info/
-.env
-.env.*
 !.env.example
 .DS_Store
 examples/rust-x402/target/
@@ -18,3 +16,4 @@ actions/verify-audit-cid/lib/
 !actions/verify-audit-cid/dist/
 !actions/verify-audit-cid/dist/**
 .next/
+config.bat
